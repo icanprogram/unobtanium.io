@@ -1,0 +1,61 @@
+hr.bright{
+	background-color: @brand-warning;
+}
+
+h2, h3, h4, h5, h6{
+	color: @brand-warning;
+}
+
+body{
+	padding-bottom: 10px;
+}
+
+section.container{
+	header{
+		text-align: center;
+	}
+
+	&:after{
+		width: 80%;
+		height: 1px;
+		background-color: @brand-warning;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+}
+
+#banner{
+	background-image: url(/img/logo.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+
+
+	.page-header{
+		border: none;
+		
+		h1{
+			color: white;
+		}
+	}
+}
+
+#slider{
+	padding: 0;
+	
+	.item{
+		h2{
+			font-size: 4em;
+		}
+	}
+}
+
+#download{
+	.download-platform{
+		text-align: center;
+		
+		h3{
+			color: @text-color;
+		}
+	}
+}
