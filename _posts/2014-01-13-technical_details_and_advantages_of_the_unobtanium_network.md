@@ -4,12 +4,10 @@ title: "Technical details and advantages of the Unobtanium network"
 author: jacob 
 ---
 
-## Introduction
 Unobtanium was not pre-mined, there were no bounties, and the lead developer on our project returned to us with only 4 UNOs in his wallet. This type of dedication and purity to open-source fundementals touched me in a very deep and profound way. It inspired me to create a new revolution in open-source development. Instead of keeping my holdings to myself, I have distributed my personal shares to the development team. This means that not only am I commited to success of Unobtanium, but the development team shares an equally deep interest in creating valubal services for our customers.
 
 ## Benefits
-Unobtanium uses the same algorithm as bitcoin (SHA256) which also means we run on the same cutting edge ASIC technology as bitcoin. Our p2p network is global, we have nodes in every major country and our biggest nodes are in Asia, and the United States. We think we are in a truly wonderful position to attract investors who beleive in low volume "value storage." We belive in our network, and our hashrate and difficulty back up our claims.
-
+Unobtanium uses the same algorithm as bitcoin (SHA256) which also means we run on the same cutting edge ASIC technology as bitcoin. Our p2p network is global, we have nodes in every major country and our biggest nodes are in Asia, and the United States. We think we are in a truly wonderful position to attract investors who beleive in low volume "value storage". We belive in our network, and our hashrate and difficulty back up our claims.
 
 ## Security
 We care about our products, and most importatly we care about delivering robust and secure services. Our online vault (currently in development) will feature 2-way verification, and added security layers to help protect our clients. Although for highest security and encryption we reccomend using our desktop vault. Investors can rest assured we apply a vigorous amount of our time contemplating added security measures, and we are always looking forward to new innovations in cryptographic security technologies.
@@ -19,7 +17,6 @@ Investors in Unobtanium can take solace in our privacy policies. As with all cry
 
 ## Efficiency
 250.000 UNOs is the maximum amount to ever be generated, there can not be more. This finite resource is currently 60% mined with a 155.925 total Unobtanium in circulation today. After our sixth block halving occurs .0001 blocks will be produced many years further out than bitcoin. Factoring in our low volume, and ultra rarity, our "rockchain" is reletively immune to dust and bloat. These are common problems for tokens in the multi-millions and billions. A low cap on our total number produced keeps our currency more stable and efficient.
-
 
 ## Innovation
 At Unobtanium, we believe in our products, and as CEO I belive in my team of developers. During a relatively short period of time we have managed to take an open-source project that had many different directions, and focus down on what our core beliefs of what crypto-currency should be. We don't refer to ourselfs as a coin, because we have innovated a new metric scale that distributes value based on weight. The core transaction protocols are still there, we have just added a new feature on top of the already secure way of making transactions. Our web services team is pushing the boundries of what an open-source project should be. We think of ourselfs as a small and adaptive start-up, and that is why I belive investors will see us differently. We are trying new things and experimenting with great, and sometimes crazy ideas. We don't think anyone else in crypto is on our next-level wave of thinking. We pledge not to stop pushing the limits of what can be achieved with a next generation cryptographic currency designed for the professional.
