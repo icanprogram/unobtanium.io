@@ -26,16 +26,26 @@ section.container{
 }
 
 #banner{
-	background-image: url(/img/logo.png);
-	background-repeat: no-repeat;
-	background-position: right center;
-
-
 	.page-header{
 		border: none;
 		
 		h1{
 			color: white;
+		}
+		.lead{
+			@media (max-width: @screen-md-max){
+				font-size: 14px;
+			}
+		}
+	}
+	
+	img{
+		margin-top: 15px;
+		max-width: 20%;
+		
+		@media (min-width: @screen-md-max){
+			margin-top: @line-height-computed * 2;
+			max-width: 100%;
 		}
 	}
 }
@@ -44,6 +54,9 @@ section.container{
 	padding: 0;
 	
 	.item{
+		margin-left: 15%;
+		margin-right: 15%;
+		
 		h2{
 			font-size: 4em;
 			color: @gray-light;
