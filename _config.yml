@@ -1,0 +1,19 @@
+name: Unobtanium
+tagline: The cryptocurrency of serious traders
+base_url: http://unobtanium.io
+
+destination: /var/www/
+
+permalink: pretty
+pygments: true
+
+authors:
+  jacob:
+    display_name: Jacob
+    position: Chief executive officer
+  icanprogram:
+    display_name: Ican
+    position: Chief technology officer
+  artis101:
+    display_name: Artis
+    position: Chief operations officer
