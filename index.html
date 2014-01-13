@@ -1,8 +1,11 @@
+---
+---
 <!doctype html>
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Unobtanium - The cryptocurrency of serious traders</title>
+		<meta charset="utf-8">
 		
 		<link rel="stylesheet" href="/css/style.css">
 	</head>
@@ -12,7 +15,7 @@
 				<h1>Unobtanium</h1>
 				<p class="lead">The cryptocurrency of serious traders</p>
 			</div>
-			<img class="pull-right img-responsive" src="/img/logo.png">
+			<img class="pull-right img-responsive" src="/img/logo.png" alt="logo">
 		</header>
 		<section id="slider" class="well">
 			<div id="carousel-slider" class="carousel slide" data-ride="carousel">
@@ -140,21 +143,28 @@
 				<tbody>
 					<tr>
 						<td>Cryptsy</td>
-						<td><i class="fa fa-btc">0.1</td>
-						<td><i class="fa fa-usd">92.30</td>
+						<td><i class="fa fa-btc"></i>0.1</td>
+						<td><i class="fa fa-usd"></i>92.30</td>
 					</tr>
 					<tr>
 						<td>Unexchange</td>
-						<td><i class="fa fa-btc">0.15</td>
-						<td><i class="fa fa-usd">138.45</td>
+						<td><i class="fa fa-btc"></i>0.15</td>
+						<td><i class="fa fa-usd"></i>138.45</td>
 					</tr>
 					<tr class="success">
 						<td>Cheapo</td>
-						<td><i class="fa fa-btc">0.09</td>
-						<td><i class="fa fa-usd">83.07</td>
+						<td><i class="fa fa-btc"></i>0.09</td>
+						<td><i class="fa fa-usd"></i>83.07</td>
 					</tr>
 				</tbody>
 			</table>
+		</section>
+		<section id="blog" class="container">
+			<header>
+				<h2>Technical insights</h2>
+				<p>Updates from the team, right to you</p>
+			</header>
+			{% include post_blurb.html %}
 		</section>
 		
 		<script src="/js/jquery.min.js"></script>

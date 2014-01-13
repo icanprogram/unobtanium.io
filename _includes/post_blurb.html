@@ -1,0 +1,10 @@
+{% assign post = site.posts.first %}
+{% assign author = site.authors[post.author] %}
+<article>
+	<header>
+		<h3>{{ post.title }}</h3>
+		<p>By {{ author.display_name }}, {{ author.position }}</p>
+	</header>
+	{{ post.excerpt }}
+	<p class="text-center"><a href="{{ post.url }}">Read on &raquo;</a></p>
+</article>
