@@ -7,6 +7,8 @@ destination: /var/www/
 permalink: pretty
 pygments: true
 
+ga-code: UA-47181344-1
+
 authors:
   jacob:
     display_name: Jacob

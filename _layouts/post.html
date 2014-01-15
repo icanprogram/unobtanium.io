@@ -1,34 +1,23 @@
 ---
+layout: default
 ---
 {% assign author = site.authors[page.author] %}
-<!doctype html>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Unobtanium - The cryptocurrency of serious traders</title>
-		<meta charset="utf-8">
-		
-		<link rel="stylesheet" href="/css/style.css">
-	</head>
-	<body>
-		<header id="banner" class="container">
-			<div class="page-header pull-left">
-				<h1><a href="/">Unobtanium</a></h1>
-				<p class="lead">The cryptocurrency of serious traders</p>
-			</div>
-			<img class="pull-right img-responsive" src="/img/logo.png">
-		</header>
-		<article id="blog">
-			<header class="well">
-				<div class="container">
-					<h2>{{ page.title }}<br><small>- by {{ author.display_name }}, {{ author.position }}</small></h2>
-				</div>
-			</header>
-			<div class="container">
-			{{ content }}
-			</div>
-		</article>
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
-	</body>
-</html>
+<header id="banner" class="container">
+	<div class="page-header pull-left">
+		<h1><a href="/">Unobtanium</a></h1>
+		<p class="lead">The cryptocurrency of serious traders</p>
+	</div>
+	<img class="pull-right img-responsive" src="/img/logo.png">
+</header>
+<article id="blog" itemscope itemtype="http://schema.org/BlogPosting">
+	<meta itemprop="url" content="{{ site.base_url }}{{ page.url }}">
+	<header class="well">
+		<div class="container">
+			<h2><span itemprop="name">{{ page.title }}</span><br><small itemprop="author" itemscope itemtype="http://schema.org/Person">- by <span itemprop="name">{{ author.display_name }}</span>, <span itemprop="jobTitle">{{ author.position }}</span></small></h2>
+		</div>
+	</header>
+	<meta itemprop="description" content="{{ page.excerpt | strip_html }}">
+	<div class="container" itemprop="articleBody">
+	{{ content }}
+	</div>
+</article>
