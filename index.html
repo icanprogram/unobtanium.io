@@ -103,18 +103,18 @@ layout: default
 	<div class="row">
 		<div class="download-platform col-sm-4">
 			<h3>Windows</h3>
-			<a type="button" class="btn btn-default" href="/files/Unobtanium-0.9.2-Qt.zip" download>Stand-alone <i class="fa fa-download"></i></a>
-			<a type="button" class="btn btn-primary" href="/files/Unobtanium-0.9.2-Setup.exe" download>Installer <i class="fa fa-download"></i></a>
+			<a type="button" class="btn btn-default" href="/files/Unobtanium-0.9.2.9.rar" download>Stand-alone <i class="fa fa-download"></i></a>
+			<a type="button" class="btn btn-primary" href="/files/Unobtanium-0.9.2.9.exe" download>Installer <i class="fa fa-download"></i></a>
 		</div>
 		<div class="download-platform col-sm-4">
 			<h3>OS X</h3>
-			<a type="button" class="btn btn-success" href="/files/Unobtanium-0.9.2-Qt-osx.zip" download>Stand-alone <i class="fa fa-download"></i></a>
-			<a type="button" class="btn btn-info" href="/files/Unobtanium-0.9.2-Qt.dmg" download>Installer <i class="fa fa-download"></i></a>
+			<a type="button" class="btn btn-success" href="/files/Unobtanium-Qt-0.9.2.9-Mac.zip" download>Stand-alone <i class="fa fa-download"></i></a>
+			<a type="button" class="btn btn-info" href="/files/Unobtanium-0.9.2.9-Qt.dmg" download>Installer <i class="fa fa-download"></i></a>
 		</div>
 		<div class="download-platform col-sm-4">
 			<h3>GNU/Linux</h3>
-			<button type="button" class="btn btn-warning">Stand-alone <i class="fa fa-download"></i></button>
-			<button type="button" class="btn btn-danger">Installer <i class="fa fa-download"></i></button>
+			<a type="button" class="btn btn-warning" href="/files/Unobtanium-0.9.2.9.tar.gz" download>Tarball <i class="fa fa-download"></i></a>
+			<a type="button" class="btn btn-danger" href="https://aur.archlinux.org/packages/unobtanium-qt/">AUR <i class="fa fa-users"></i></a>
 		</div>
 	</div>
 </section>
@@ -150,6 +150,49 @@ layout: default
 		</tbody>
 	</table>
 	<p class="text-center"><small>Data from <a href="http://unoticker.com">UnoTicker</a>.</small></p>
+</section>
+<section id="stats" class="container ">
+	<header>
+		<h2>Stats</h2>
+		<p>Get to know the network</p>
+	</header>
+	<section id="stats_halving">
+		<header>
+			<h3>Block reward halving</h3>
+			<p>At each of the points in time below, the reward for finding a block halves, which practically means that the supply will be guaranteed to halve.</p>
+		</header>
+		<table id="stats_halving_table" class="table table-bordered table-striped">
+			<thead>
+				<tr></tr>
+			</thead>
+			<tbody>
+				<tr></tr>
+			</tbody>
+		</table>
+		<p id="stats_halving_spinner" class="text-center">
+			<i class="fa fa-refresh fa-spin"></i>
+		</p>
+	</section>
+	<section id="stats_hashrate">
+		<header>
+			<h3>Network hashrate</h3>
+			<p>The graph below indicates the power behind the transaction processing network of Unobtanium. More power means that transactions can be handled more efficiently, faster and cheaper.</p>
+		</header>
+		<div id="stats_hashrate_graph" class="hidden"></div>
+		<p id="stats_hashrate_spinner" class="text-center">
+			<i class="fa fa-refresh fa-spin"></i>
+		</p>
+	</section>
+	<section id="stats_coins">
+		<header>
+			<h3>Total Unobtanium</h3>
+			<p>The graph below shows the number of Unobtanium currently in circulation and the number of Unobtanium available for mining.</p>
+		</header>
+		<div id="stats_coins_graph" class="hidden"></div>
+		<p id="stats_coins_spinner" class="text-center">
+			<i class="fa fa-refresh fa-spin"></i>
+		</p>
+	</section>
 </section>
 <section id="blog" class="container">
 	<header>
